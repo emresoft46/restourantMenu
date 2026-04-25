@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #0892a5;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar-ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  font-size: large;
+  font-weight: bold;
+}
+.navbar-link {
+  text-decoration: none;
+  color: #ffe6e6;
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-link:hover {
+  color: #424040;
+  font-size: 20px;
+}
+
+.logo-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-img {
+  height: 50px;
+  width: 50px;
+}
+
+#logo-title {
+  color: #88051b;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+
+#btn-rezerve {
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: #8f3626;
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#btn-rezerve:hover{
+  background-color: #cc351a;
+  font-size: 15px;
+}
+
+#title-image{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #f1c40f;
+}
+
+.title-container {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #f1c40f;
+}
+
+.title-group {
+  background-color: #fcfaf1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  border-bottom: 1px solid #dcdde1;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.card-title {
+  color: #2f3640;
+  font-size: 19px;
+  font-family: "Segoe UI", sans-serif;
+  padding: 15px 0;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.card-title:hover {
+  color: #e67e22;
+  font-size: 25px;
+}
+
+.card-container {
+  background-color: #f5f6fa;
+  min-height: 300px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  height: 480px;
+  margin-top: 20px;
+  border-radius: 15px;
+  color: #2f3640;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.4s ease;
+  border: none;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-info {
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 13px;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3436;
+  margin: 10px 60px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #f1c40f;
+  font-size: 17px;
+}
