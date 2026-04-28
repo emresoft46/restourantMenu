@@ -46,6 +46,7 @@ body {
   color: #88051b;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 #btn-rezerve {
@@ -58,13 +59,16 @@ body {
   font-weight: bold;
   transition: 0.3s;
 }
+#btn-rezerve a {
+  color: #ffff;
+}
 
-#btn-rezerve:hover{
+#btn-rezerve:hover {
   background-color: #cc351a;
   font-size: 15px;
 }
 
-#title-image{
+#title-image {
   height: 400px;
   width: 100%;
   object-fit: cover;
@@ -145,7 +149,6 @@ body {
 }
 
 .card:hover {
-  transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
 
@@ -174,4 +177,111 @@ body {
   font-weight: bold;
   color: #f1c40f;
   font-size: 17px;
+  transition: 0.3s;
 }
+.price:hover {
+  background-color: #1c1e1f;
+}
+footer{
+    background-color: #0c0c0c;
+      color: #e2e2e2;
+
+}
+
+.footer-bolumler {
+
+  height: 300px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 5px solid skyblue;
+}
+
+.iframe-maps {
+  border: none;
+  border-radius: 15px;
+  width: 300px;
+  height: 200px;
+}
+.footer-bolum {
+  text-align: center;
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.maps-prg {
+  font-size: small;
+}
+
+.iletisim-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.iletisim-link {
+  text-decoration: none;
+  color: #ffff;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.iletisim-img {
+  height: 20px;
+  width: 20px;
+}
+
+.hizliErisim-link {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.hizliErisim-link a {
+  color: #e2e2e2;
+  transition: 0.2s;
+}
+
+.hizliErisim-link a:hover{
+  color: #ffff;
+  font-size: 17px;
+}
+
+.hizliErisim {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20vh;
+  gap: 20px;
+}
+
+
+
+.github-container {
+  width: 100%;
+  height: 50px;
+}
+.github-container p {
+  text-align: center;
+  line-height: 50px;
+  
+}
+
+#github-link {
+  text-decoration: none;
+  color: #d4d8e0;
+  transition: 0.3s;
+}
+#github-link:hover {
+  color: #ffffff;
+}
+
