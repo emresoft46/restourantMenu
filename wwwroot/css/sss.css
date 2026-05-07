@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dadada;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.sss-title {
+    background-color: rgb(80, 164, 212);
+    color: #faf9f9dd;
+    text-shadow: 1px 1px 1px black;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+
+.sss-card-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.sss-card {
+    background-color: rgb(46, 48, 47);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    /* padding: 8px; */
+    border-radius: 5px;
+    font-weight: bold;
+    border: 3px solid #f1c40f;
+
+}
+
+
+.sss-card-text{
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+
+.sss-card-title {
+    font-size: x-large;
+    background-color: rgb(53, 49, 49);
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border: 2px solid #5e727c;
+
+}
+
+
+
+
+
+.sss-kategori {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+.kategori-names td {
+    padding: 15px;
+    background-color: #aac5d4;
+    font-weight: bold;
+    font-size: 18px;
+    color: #37101d;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+
+.kategori-names td:hover{
+    background-color: #3784ad;
+    color: #dddd;
+}
+
+
+

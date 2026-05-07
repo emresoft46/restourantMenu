@@ -1,0 +1,72 @@
+<div class="form-group">
+
+
+
+    <!--*Kullanıcı Bilgileri Form-->
+
+    <form action="#" class="forms form-user">
+        <div class="input-group">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name">
+        </div>
+        <div class="input-group">
+            <label for="surname">Soyadınız:</label>
+            <input type="text" id="surname">
+        </div>
+        <div class="input-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+        </div>
+        <div class="input-group">
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone">
+        </div>
+
+        <div class="center">
+        
+            <button id="btn-rezerveyap">Rezervasyonu Oluşturun</button>
+
+        </div>
+
+
+
+
+    </form>
+
+    <!--* rezervasyon bilgileri formu-->
+
+    <form action="#" class="forms form-info">
+        <div class="input-group">
+            <label for="date">Tarih:</label>
+            <input type="date" id="date">
+        </div>
+        <div class="input-group">
+            <label for="kisi">Kişi Sayısı:</label>
+            <input type="number" id="kisi">
+        </div>
+        <div class="input-group">
+            <label for="sube">Şube:</label>
+            <select name="sube" id="sube">
+                <option value="" disabled selected>Şube seçiniz</option>
+                <option>İstanbul(Kartal)</option>
+                <option>İstanbul(Taksim)</option>
+                <option>Tekirdağ(Merkez)</option>
+                <option>Bursa(Uludağ)</option>
+                <option>Ankara(Kızılay)</option>
+
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="zaman">Zaman:</label>
+            <input type="radio" id="sabah" name="saat"> <span class="radio-name">sabah</span>
+            <input type="radio" id="ogle" name="saat"> <span class="radio-name">Öğle</span>
+            <input type="radio" id="aksam" name="saat"> <span class="radio-name">Akşam</span>
+        </div>
+
+        <textarea name="istek" id="istek" placeholder="Ekstra istediğiniz Birşeyler Varsa yazabilirsiniz" rows="15"
+                  cols="20"></textarea>
+
+    </form>
+
+
+</div>
