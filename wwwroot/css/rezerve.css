@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 100px;
+  flex-wrap: wrap;
 }
 .form-user {
   background-color: #1e293b;
@@ -34,7 +35,8 @@ label {
   font-family: Arial, Helvetica, sans-serif;
   width: 150px;
 }
-input,select {
+input,
+select {
   flex: 1;
   padding: 10px;
   border-radius: 10px;
@@ -52,32 +54,27 @@ input,select {
   font-weight: bold;
 }
 
-
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-#btn-rezerveyap{
-    padding: 17px;
-    border-radius: 15px;
-    border: none;
-    margin-top: 100px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    background-color: #4987dd;
-    color: #ffffffdd;
-    transition: 0.2s;
-    
-
+#btn-rezerveyap {
+  padding: 17px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 100px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #4987dd;
+  color: #ffffffdd;
+  transition: 0.2s;
 }
 
-#btn-rezerveyap:hover{
-    cursor: pointer;
-    border: 2px solid #ffff;
-    scale: 1;
+#btn-rezerveyap:hover {
+  cursor: pointer;
+  border: 2px solid #ffff;
+  scale: 1;
 }
-

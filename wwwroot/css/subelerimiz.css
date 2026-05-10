@@ -9,7 +9,7 @@ h2 {
 }
 
 .container-title {
-  background-color: rgb(53, 139, 209);
+  background-color: #2a4379;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@ h2 {
 }
 
 .sube-card {
-  background-color: rgb(67, 148, 148);
+  background-color: rgb(28, 32, 31);
   width: 250px;
   height: 275px;
   line-height: 20px;
@@ -40,7 +40,12 @@ h2 {
   color: #ffff;
   border-radius: 8px;
   border: 3px solid rgb(192, 182, 49);
-  box-shadow: 1px 1px 5px rgb(178, 211, 32);
+  box-shadow: 1px 1px 5px #121212;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sube-card:hover {
+  transform: scale(1.05);
 }
 
 .sube-card-img {

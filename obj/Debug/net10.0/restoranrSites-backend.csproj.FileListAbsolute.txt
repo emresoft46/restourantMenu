@@ -124,11 +124,8 @@ C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\rjsmcshtml.dswa.cache.jso
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\scopedcss\bundle\restoranrSites-backend.styles.css
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\scopedcss\projectbundle\restoranrSites-backend.bundle.scp.css
-C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\3q1wnuyyhn-{0}-tigtb9cuyn-tigtb9cuyn.gz
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\2vrrj5u0yy-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\l6njlb56ny-{0}-875ltun1i0-875ltun1i0.gz
-C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\ou8erf3r2n-{0}-3av45rz6l9-3av45rz6l9.gz
-C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\nirb9w9dms-{0}-oixpd16pz8-oixpd16pz8.gz
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\guuoo6t52b-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\28bcbxg3ix-{0}-xkps41za8y-xkps41za8y.gz
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\py4kyr9nnh-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
@@ -203,3 +200,6 @@ C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\refint\restoranrSites-bac
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\restoranrSites-backend.pdb
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\restoranrSites-backend.genruntimeconfig.cache
 C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\ref\restoranrSites-backend.dll
+C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\3q1wnuyyhn-{0}-tjy6nce9ht-tjy6nce9ht.gz
+C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\ou8erf3r2n-{0}-qrulxxa65w-qrulxxa65w.gz
+C:\Users\USER\Desktop\restorantSites\obj\Debug\net10.0\compressed\nirb9w9dms-{0}-4ghlfxr67f-4ghlfxr67f.gz

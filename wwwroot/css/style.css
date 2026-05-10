@@ -15,6 +15,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  border-bottom: 3px solid rgb(12, 12, 12);
 }
 
 .navbar-ul {
@@ -40,6 +41,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
 }
 
 #logo-img {
@@ -155,6 +157,7 @@ html {
 
 .card:hover {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
 }
 
 .card-image {
@@ -200,8 +203,8 @@ footer {
   border-top: 5px solid skyblue;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
-.footer-bolumler h2{
-  margin-bottom: 20px;
+.footer-bolumler h2 {
+  margin-bottom: 30px;
 }
 
 .iframe-maps {
@@ -283,6 +286,8 @@ a {
 .github-container p {
   text-align: center;
   line-height: 50px;
+  margin: 0;
+  padding: 0;
 }
 
 #github-link {
@@ -296,4 +301,29 @@ a {
 #github-link:hover {
   color: #ffffff;
   text-decoration: underline;
+}
+
+.sabit {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  font-size: 39px;
+  background-color: #303c44;
+  border-radius: 50%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  border: 2px solid rgb(223, 241, 61);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sabit-link {
+  text-decoration: none;
+  color: #ffff;
 }
